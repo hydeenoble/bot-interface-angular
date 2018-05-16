@@ -3,4 +3,23 @@
   height: 90vh;
   width: 50rem;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
+
+.header{
+  background-color: white;
+  padding: 2rem;
+}
+
+.content{
+  background-color: aqua;
+  flex: 1;
+}
+
+.box{
+  background-color: green;
+  /* height: 6rem; */
+  padding: .5rem;
+}
+
