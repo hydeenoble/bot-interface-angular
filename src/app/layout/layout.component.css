@@ -1,5 +1,5 @@
 .layout{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 90vh;
   width: 50rem;
   margin: auto;
@@ -10,15 +10,17 @@
 .header{
   background-color: white;
   padding: 2rem;
+  border: 1px solid #d3d4d3;
 }
 
 .content{
-  background-color: aqua;
+  background-color: white;
   flex: 1;
+  padding: 2rem;
 }
 
 .box{
-  background-color: green;
+  background-color: #d3d4d3;
   /* height: 6rem; */
   padding: .5rem;
 }
