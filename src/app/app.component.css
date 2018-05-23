@@ -1,9 +1,18 @@
 .container{
-  border: 2px solid red;
   width: 100vw;
   height: 100vh;
-  background-color: brown;
+  /* background-color: #ad3232; */
+  background-color: rgb(211,73,73);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.layout{
+  /* border: 1px solid green; */
+  max-height: 90vh;
+  max-width: 50rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }

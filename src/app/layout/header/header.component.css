@@ -2,4 +2,14 @@
 
 .header__text{
   text-align: center;
+  /* border: 1px solid red; */
+  padding: 1.5rem 1rem;
+  color: rgb(211,73,73);
+}
+
+.header__icon{
+  /* border: 1px solid red; */
+  font-size: 2rem;
+  align-self: center;
+  margin-right: 1.5rem;
 }

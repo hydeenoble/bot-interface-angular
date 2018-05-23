@@ -1,5 +1,56 @@
+
+.bot-container{
+
+}
+.message-box-wrapper{
+  width: 70%;
+  background-color: #ffffff;
+  -webkit-clip-path: polygon(100% 0, 100% 33%, 100% 100%, 85% 100%, 1.5rem 100%, 1.5rem 1rem, 0 0);
+  clip-path: polygon(100% 0, 100% 33%, 100% 100%, 85% 100%, 1.5rem 100%, 1.5rem 1rem, 0 0);
+  border-radius: .5rem;
+  padding: .5rem .5rem .5rem 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
 .message-box{
-  height: 3rem;
-  width: 90%;
-  border: 1px solid red;
+  /* background-color: white; */
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.bot-name{
+  margin-bottom: .5rem;
+}
+
+.bot-message{
+  /* line-height: 1px; */
+}
+
+
+.user-container{
+  /* border: 1px solid red; */
+  text-align: right;
+}
+
+.user-box-wrapper{
+  width: 70%;
+  /* background-color: aquamarine; */
+  background-color: rgb(218,50,50, .5);
+  -webkit-clip-path: polygon(100% 0, 100% 33%, 100% 100%, 85% 100%, 1.5rem 100%, 1.5rem 1rem, 0 0);
+  clip-path: polygon(100% 0, 100% 33%, 100% 100%, 85% 100%, 1.5rem 100%, 1.5rem 1rem, 0 0);
+  border-radius: .5rem;
+  padding: .5rem .5rem .5rem 2rem;
+  transform: rotateY(180deg);
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.user-box{
+  transform: rotateY(-180deg);
+  text-align: left;
+}
+
+.user-name{
+  margin-bottom: .5rem;
 }
