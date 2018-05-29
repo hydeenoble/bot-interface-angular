@@ -7,6 +7,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { ContentComponent } from './layout/content/content.component';
 import { SendMessageBoxComponent } from './layout/send-message-box/send-message-box.component';
+import { ChatModule } from './chat/chat.module';
 
 
 @NgModule({
